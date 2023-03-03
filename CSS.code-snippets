@@ -1,0 +1,82 @@
+{
+	"margin": {
+		"scope": "css,scss",
+		"prefix": "mm",
+		"body": [
+			"margin: 0px 0px 0px 0px;",
+		],
+		"description": "margin: 0px 0px 0px 0px;"
+	},
+	"padding": {
+		"scope": "css,scss",
+		"prefix": "pp",
+		"body": [
+			"padding: 0px 0px 0px 0px;",
+		],
+		"description": "padding: 0px 0px 0px 0px;"
+	},
+	"width": {
+		"scope": "css,scss",
+		"prefix": "w100",
+		"body": [
+			"width: 100%;",
+		],
+		"description": "width: 100%;"
+	},
+	"height": {
+		"scope": "css,scss",
+		"prefix": "h100",
+		"body": [
+			"height: 100%;",
+		],
+		"description": "height: 100%;"
+	},
+	"position-relative": {
+		"scope": "css,scss",
+		"prefix": "pr",
+		"body": [
+			"position: relative;",
+		],
+		"description": "position: relative;"
+	},
+	"position-absolute": {
+		"scope": "css,scss",
+		"prefix": "pa",
+		"body": [
+			"position: absolute;",
+		],
+		"description": "position: absolute;"
+	},
+	"position-fixed": {
+		"scope": "css,scss",
+		"prefix": "pf",
+		"body": [
+			"position: fixed;",
+		],
+		"description": "position: fixed;"
+	},
+	"content": {
+		"scope": "css,scss",
+		"prefix": "c'",
+		"body": [
+			"content: '';",
+		],
+		"description": "content: '';"
+	},
+	"transition": {
+		"scope": "css,scss",
+		"prefix": "tr",
+		"body": [
+			"transition: 0.5s;",
+		],
+		"description": "transition: 0.5s;"
+	},
+	"font-size": {
+		"scope": "css,scss",
+		"prefix": "fs",
+		"body": [
+			"font-size: 1em;",
+		],
+		"description": "font-size: 1em;"
+	},
+}
