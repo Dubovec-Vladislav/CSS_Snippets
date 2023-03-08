@@ -1,5 +1,5 @@
 {
-	"margin": {
+	"margin-px": {
 		"scope": "css,scss",
 		"prefix": "mm",
 		"body": [
@@ -7,11 +7,35 @@
 		],
 		"description": "margin: 0px 0px 0px 0px;"
 	},
-	"padding": {
+	"margin-em": {
+		"scope": "css,scss",
+		"prefix": "mme",
+		"body": [
+			"margin: 0em 0em 0em 0em;",
+		],
+		"description": "margin: 0px 0px 0px 0px;"
+	},
+	"margin-auto": {
+		"scope": "css,scss",
+		"prefix": "mau",
+		"body": [
+			"margin: auto;",
+		],
+		"description": "margin: auto;"
+	},
+	"padding-px": {
 		"scope": "css,scss",
 		"prefix": "pp",
 		"body": [
 			"padding: 0px 0px 0px 0px;",
+		],
+		"description": "padding: 0px 0px 0px 0px;"
+	},
+	"padding-em": {
+		"scope": "css,scss",
+		"prefix": "pp",
+		"body": [
+			"padding: 0em 0em 0em 0em;",
 		],
 		"description": "padding: 0px 0px 0px 0px;"
 	},
@@ -78,5 +102,21 @@
 			"font-size: 1em;",
 		],
 		"description": "font-size: 1em;"
+	},
+	"flex-wrap": {
+		"scope": "css,scss",
+		"prefix": "fww",
+		"body": [
+			"flex-wrap: wrap;",
+		],
+		"description": "flex-wrap: wrap;"
+	},
+	"flex-direction": {
+		"scope": "css,scss",
+		"prefix": "fdc",
+		"body": [
+			"flex-direction: column;",
+		],
+		"description": "flex-direction: column;"
 	},
 }
