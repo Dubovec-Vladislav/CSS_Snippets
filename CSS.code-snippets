@@ -33,7 +33,7 @@
 	},
 	"padding-em": {
 		"scope": "css,scss",
-		"prefix": "pp",
+		"prefix": "ppe",
 		"body": [
 			"padding: 0em 0em 0em 0em;",
 		],
@@ -118,5 +118,39 @@
 			"flex-direction: column;",
 		],
 		"description": "flex-direction: column;"
+	},
+	"transform-translate": {
+		"scope": "css,scss",
+		"prefix": "tt",
+		"body": [
+			"transform: translate(0px, -50%);",
+		],
+		"description": "transform: translate;"
+	},
+	"object-fit": {
+		"scope": "css,scss",
+		"prefix": "ofc",
+		"body": [
+			"object-fit: cover;",
+		],
+		"description": "object-fit: cover;"
+	},
+	"keyframes": {
+		"scope": "css,scss",
+		"prefix": "@k",
+		"body": [
+			"@keyframes identifier {",
+			"    0% {",
+			"",
+			"    }",
+			"    50% {",
+			"",
+			"    }",
+			"    100% {",
+			"",
+			"    }",
+			"}",
+		],
+		"description": "@keyframes light { 0% {} 50% {} 100% {} }"
 	},
 }
