@@ -99,7 +99,7 @@
 		"scope": "css,scss",
 		"prefix": "fs",
 		"body": [
-			"font-size: 1em;",
+			"font-size: ;",
 		],
 		"description": "font-size: 1em;"
 	},
@@ -152,5 +152,13 @@
 			"}",
 		],
 		"description": "@keyframes light { 0% {} 50% {} 100% {} }"
+	},
+	"background": {
+		"scope": "css,scss",
+		"prefix": "bg+",
+		"body": [
+			"background: url('../img/') 0 0 no-repeat;",~
+		],
+		"description": "background: url('../../img/') 0 0 no-repeat;"
 	},
 }
